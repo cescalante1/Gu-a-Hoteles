@@ -1,0 +1,55 @@
+body{
+
+     background-color:  grey;;
+
+     font-family: 'Anton', sans-serif;
+
+}
+
+header{
+
+    display: flex;
+    background-color: white;
+    margin: 40px;
+    border: solid;
+    justify-content: space-between;
+    align-items: flex-end;
+  
+ 
+  
+}
+
+.logo{
+    display: flex;
+    width: 110px;
+    position: relative;
+    left: 150px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+
+
+}
+
+
+
+.list-menu{
+    display: flex;  
+    list-style: none;   
+    position: relative;
+    right: 150px;
+    
+   }
+
+.nav-item{
+
+    padding:10px;
+    border: solid white;
+    
+}
+
+.nav-item a{
+
+    text-decoration: none;
+    color:black;
+}
+
