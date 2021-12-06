@@ -78,10 +78,10 @@ a:hover{
     background: rgb(99,120,205);
     background: linear-gradient(90deg, rgba(99,120,205,1) 30%, rgba(100,95,180,1) 61%, rgba(118,116,148,1) 80%);
     width: 95%;
-    height: 100%;
     margin-left: 40px;
     border: solid;
     border-radius: 10px;
+
 
 }
 
@@ -95,13 +95,25 @@ a:hover{
 
 }
 
+h1{
+
+    border-style:double;
+    border-radius: 15px;
+    padding: 15px;
+
+    background: rgb(155,69,204);
+    background: linear-gradient(90deg, rgba(155,69,204,1) 25%, rgba(139,100,145,1) 57%, rgba(148,116,133,1) 80%);
+}
+
 p{
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
     font-size: 25px;
     border-style:double;
     border-radius: 15px;
     padding: 10px;
+    background: rgb(155,69,204);
+    background: linear-gradient(90deg, rgba(155,69,204,1) 25%, rgba(139,100,145,1) 57%, rgba(148,116,133,1) 80%);
 }
 
 .imagenintro{
@@ -112,6 +124,7 @@ p{
     align-items: center;
     flex-wrap: wrap;
     overflow: hidden;
+    
 
                         
 }
@@ -121,4 +134,25 @@ display: flex;
 width: 60%;
 height: 60%;
 border-radius: 50px;
+}
+
+.botones{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.solicitarver{
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+    background: rgb(155,69,204);
+    background: linear-gradient(90deg, rgba(155,69,204,1) 25%, rgba(139,100,145,1) 57%, rgba(148,116,133,1) 80%);
+    border-radius: 15px;
+    color: white;
+
 }
